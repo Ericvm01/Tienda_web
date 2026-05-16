@@ -1,0 +1,83 @@
+/*Estilos index*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    background-color: white;
+    background-position: 300px;
+    
+}
+
+#imgLogo{
+
+    width: 150px;
+    text-align: center;
+}
+
+
+h1{
+
+    color:brown;
+    font-size: 18px; 
+}
+
+h2{
+
+    font-style: italic;
+}
+
+#parrafo1{
+
+    color:blue;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+#parrafo3{
+
+    font-size: 26px;
+    font-style: italic;
+}
+
+#orden{
+    font-size: 26px;
+    font-style: italic;
+}
+
+.banners{
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px black;
+
+}
+
+li{
+
+    color: red;
+    font-weight: bolder;
+}
+
+/*Estilos Tablas*/
+
+th{
+    color:red;
+    font-size: 25px;
+
+
+}
+
+td{
+
+    font-style: oblique;
+}
+
+#parrafo2{
+
+    font-weight: bolder;
+}
+
+/*Estilos formularios*/
