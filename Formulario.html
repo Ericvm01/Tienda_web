@@ -16,54 +16,58 @@
 
   <h1>Formulario de pedidos</h1>
 
-  <form action="#" method="post">
+  <div class="form-wrapper">
+    <form action="#" method="post">
 
-    <label for="nombre">Nombre completo</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Digité nombre completo..." /><br />
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Digité nombre completo..." /><br />
 
-    <label for="movil">Telefono</label>
-    <input type="tel" id="movil" name="movil" placeholder="#########" /><br />
+      <label for="movil">Telefono</label>
+      <input type="tel" id="movil" name="movil" placeholder="#########" /><br />
 
-    <label for="fecha">Fecha de nacimiento</label>
-    <input type="date" id="fecha" name="fecha" value="1950-01-01" /><br />
+      <label for="fecha">Fecha de nacimiento</label>
+      <input type="date" id="fecha" name="fecha" value="1950-01-01" /><br />
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" /><br />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" /><br />
 
-     
+       
 
-    <fieldset>
-      <legend>Juego preferido</legend>
-      <label><input type="radio" name="estado" value="soltero" /> Elden Ring</label><br />
-      <label><input type="radio" name="estado" value="casado" /> Bloodborne game of the year</th></label><br />
-      <label><input type="radio" name="estado" value="separado" /> Dark souls 3 Deluxe Edition </label><br />
+      <fieldset>
+        <legend>Juego preferido</legend>
+        <label><input type="radio" name="estado" value="soltero" /> Elden Ring</label><br />
+        <label><input type="radio" name="estado" value="casado" /> Bloodborne game of the year</th></label><br />
+        <label><input type="radio" name="estado" value="separado" /> Dark souls 3 Deluxe Edition </label><br />
+        
+      </fieldset>
+
       
-    </fieldset>
+      <fieldset>
+        <legend>Desea información de:</legend>
+        <label><input type="checkbox" name="info" value="deportes" /> Disponibilidad</label><br />
+        <label><input type="checkbox" name="info" value="lenguajes" /> Precio</label><br />
+        
+      </fieldset>
 
-    
-    <fieldset>
-      <legend>Desea información de:</legend>
-      <label><input type="checkbox" name="info" value="deportes" /> Disponibilidad</label><br />
-      <label><input type="checkbox" name="info" value="lenguajes" /> Precio</label><br />
-      
-    </fieldset>
+      <label for="ciudad">Seleccionar ciudad de residencia:</label>
+      <select id="ciudad" name="ciudad">
+        <option value="medellin">Medellín</option>
+        <option value="bogota">Bogotá</option>
+        <option value="cali">Cali</option>
+        <option value="Barranquilla">Barranquilla</option>
+      </select><br />
 
-    <label for="ciudad">Seleccionar ciudad de residencia:</label>
-    <select id="ciudad" name="ciudad">
-      <option value="medellin">Medellín</option>
-      <option value="bogota">Bogotá</option>
-      <option value="cali">Cali</option>
-      <option value="Barranquilla">Cali</option>
-    </select><br />
+      <label for="comentarios">Comentarios:</label><br />
+      <textarea id="comentarios" name="comentarios" rows="6" cols="40"
+        placeholder="Escribe aquí tu comentario..."></textarea><br />
 
-    <label for="comentarios">Comentarios:</label><br />
-    <textarea id="comentarios" name="comentarios" rows="6" cols="40"
-      placeholder="Escribe aquí tu comentario..."></textarea><br />
+      <div class="form-botones">
+        <input type="submit" value="Enviar formulario" />
+        <input type="reset" value="Reiniciar" />
+      </div>
 
-    <input type="submit" value="Enviar formulario" />
-    <input type="reset" value="Reiniciar" />
-
-  </form>
+    </form>
+  </div>
 
  
 
