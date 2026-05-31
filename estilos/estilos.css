@@ -198,7 +198,7 @@ section {
 }
 
 /* --- GALERÍA DE IMÁGENES --- */
-/* Clase nueva: .galeria-container en index.html */
+
 .galeria-container {
   display: flex;
   flex-wrap: wrap;
@@ -228,7 +228,7 @@ section {
 }
 
 /* --- VIDEOS --- */
-/* Clase nueva: .media-container en index.html */
+
 .media-container {
   display: flex;
   flex-wrap: wrap;
@@ -246,7 +246,7 @@ section {
 }
 
 /* --- AUDIOS --- */
-/* Clase nueva: .audio-container en index.html */
+
 .audio-container {
   display: flex;
   flex-wrap: wrap;
@@ -303,7 +303,7 @@ footer {
    TABLAS.HTML
    ============================================================ */
 
-/* Clase nueva: .tabla-wrapper en tablas.html */
+
 .tabla-wrapper {
   width: 100%;
   overflow-x: auto;
@@ -369,7 +369,7 @@ tr:hover td {
    FORMULARIO.HTML
    ============================================================ */
 
-/* Id nuevo: .form-wrapper en Formulario.html */
+
 .form-wrapper {
   max-width: 640px;
   margin: 2rem auto;
@@ -501,7 +501,7 @@ fieldset label {
   gap: 0.5rem;
 }
 
-/* Clase nueva: .form-botones en Formulario.html */
+
 .form-botones {
   display: flex;
   flex-wrap: wrap;
