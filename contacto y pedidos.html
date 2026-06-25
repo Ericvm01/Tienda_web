@@ -8,32 +8,33 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
 </head>
 <body>
+  <h1>FromsoftStore</h1>
 <nav>
-    <a href="index.html">Inicio</a>
-    <a href="tablas.html">Tablas</a>
+    <a href="Inicio.html">Inicio</a>
+    <a href="Juegos.html">Juegos</a>
+    <a href="Registro.html">Registro</a>
+    <a href="Iniciar.html">Ingreso</a>
   </nav>
-
+  
       <center>
         <img src="Imagenes/Logo.png" alt="" id="imgLogo"> 
       </center>
 
 
-  <h1>Formulario de pedidos</h1>
+  <h1>Pedidos</h1>
 
   <div class="form-wrapper">
     <form action="#" method="post">
 
       <label for="nombre">Nombre completo</label>
-      <input type="text" id="nombre" name="nombre" placeholder="Digité nombre completo..." /><br />
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" /><br />
 
       <label for="movil">Telefono</label>
-      <input type="tel" id="movil" name="movil" placeholder="#########" /><br />
+      <input type="tel" id="movil" name="movil" placeholder="(+57)311000000" /><br />
 
-      <label for="fecha">Fecha de nacimiento</label>
-      <input type="date" id="fecha" name="fecha" value="1950-01-01" /><br />
 
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" /><br />
+      <input type="email" id="email" placeholder="usuario@email.com" /><br />
 
        
 
@@ -61,6 +62,32 @@
         <option value="Barranquilla">Barranquilla</option>
       </select><br />
 
+      <fieldset>
+        <div class="campo">
+    <label for="direccion">Dirección</label>
+    <input 
+      type="text" 
+      id="direccion" 
+      name="direccion" 
+      placeholder="Calle 45 #23-10"
+      autocomplete="street-address"
+    >
+  </div>
+
+    <div class="campo">
+    <label for="adicional">Apartamento / Piso (opcional)</label>
+    <input 
+      type="text" 
+      id="adicional" 
+      name="adicional" 
+      placeholder="Apto 301, Torre B"
+      autocomplete="address-line2"
+    >
+  </div>
+
+
+      </fieldset>
+
       <label for="comentarios">Comentarios:</label><br />
       <textarea id="comentarios" name="comentarios" rows="6" cols="40"
         placeholder="Escribe aquí tu comentario..."></textarea><br />
@@ -68,6 +95,7 @@
       <div class="form-botones">
         <input type="submit" value="Enviar formulario" />
         <input type="reset" value="Reiniciar" />
+        
       </div>
 
     </form>

@@ -133,6 +133,15 @@ nav a {
   transition: color 0.25s, border-color 0.25s;
 }
 
+.Panel-registro{
+
+  display: flex;
+  margin-left: auto;
+  gap: 15px;
+
+
+}
+
 nav a:hover {
   color: var(--gold);
   border-bottom-color: var(--gold);
@@ -546,7 +555,7 @@ input[type="reset"] {
 
 input[type="reset"]:hover {
   color: var(--text-light);
-  border-color: rgba(255,255,255,0.3);
+  border-color: rgba(221, 231, 28, 0.875);
 }
 
 ::placeholder {
